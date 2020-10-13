@@ -1,6 +1,6 @@
 import 'dart:convert';
 import 'package:flutter/material.dart';
-import 'classes/user.dart';
+import 'classes/User.dart';
 import 'includes/api.dart';
 
 void main() => runApp(MyApp());

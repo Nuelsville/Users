@@ -1,11 +1,11 @@
 import 'dart:async';
 import 'package:http/http.dart' as http;
 
-const baseUrl = "https://jsonplaceholder.typicode.com";
+const baseUrl = "https://woundcharts.io/emr/php-rest-api-master/server/apis";
 
 class API {
   static Future getUsers() {
-    var url = baseUrl + "/users";
+    var url = baseUrl + "/patients.php";
     return http.get(url);
   }
 }
